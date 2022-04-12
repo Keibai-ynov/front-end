@@ -1,0 +1,44 @@
+.card{
+    &__wrapper{
+        padding: 0 12px;
+    }
+    &__img{
+        height: 50%;
+        width: 100%;
+        margin-bottom: 25px;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    &__infos{
+        p{
+            color: #74706B;
+            font-size: 16px;
+            margin-bottom: 11px;
+        }
+        h5{
+            font-size: 22px;
+            font-weight: 500;
+            color: rgb(41, 38, 33);
+            
+            :hover{
+                color: rgb(255, 32, 32);
+            }
+            a{
+                margin-bottom: 12px !important;
+                text-decoration: none;
+                color: rgb(41, 38, 33);
+
+            }
+        }
+        .card__description{
+            margin: 12px 0  !important;
+        }
+        a{
+            color: rgb(41, 38, 33);
+            font-size: 16px;
+            font-weight: 600;
+        }
+    }
+}

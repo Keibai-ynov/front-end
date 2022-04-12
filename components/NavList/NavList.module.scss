@@ -1,0 +1,39 @@
+.list{
+    &__wrapper{
+        .item{
+            &__list{
+                margin: 40px 0;
+                &:hover{
+                }
+                
+            }
+        
+        }
+    }
+   
+}
+.item{
+    &__link{
+        color:#7e7d7daf;
+        text-decoration: none;
+        &:hover{
+            color: 	#800000;
+        }
+        &_active{
+            color: 	#800000;
+            text-decoration: none;
+        }
+    }
+    &__list{
+        margin: 20px 0;
+    }  
+    &__logo{
+        .sidebar{
+            &__navicon{
+            width: 20%;
+            font-size: 25px;
+            padding: 0 10px 0 0px;
+            }
+        }
+    }
+}

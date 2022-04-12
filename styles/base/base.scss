@@ -1,0 +1,17 @@
+html{
+    min-height: 100vh;
+    height: 100%;
+}
+body{
+    font-family: $mainfont;
+    min-height: inherit; 
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: $mainfont
+}
+p,label,a{
+    font-family: $secondfont;
+}
+div#__next{
+    min-height: inherit; 
+}

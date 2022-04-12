@@ -1,0 +1,11 @@
+.img{
+    &__img{
+        border-radius: 50%;
+    }
+    &__wrapper{
+        width: 30%;
+        height: 70%;
+        margin: 0 5%;
+        position: relative;
+    }
+}

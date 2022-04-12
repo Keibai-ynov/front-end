@@ -1,0 +1,27 @@
+.bubblecard{
+    &__wrapper{
+        position: absolute;
+        z-index: 100;
+        width: 30%;
+        background-color: white;
+        box-shadow: 10px 5px 5px grey;
+        left: 68%;
+        top: 85%;
+        height: 50px;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        padding: 5px 0;
+    }
+    &__label{
+        text-align: center;
+        font-size: 13px;
+        margin: 5px;
+        color: #7e7d7daf;
+    }
+    &__value{
+        text-align: center;
+        font-weight: 600;
+        font-size: 14px;
+    }
+}

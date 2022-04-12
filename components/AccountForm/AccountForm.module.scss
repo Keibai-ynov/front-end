@@ -1,0 +1,41 @@
+.form{ 
+    &__wrapper{
+        margin: 0 5%;
+    }
+    &__row, &__submit{
+        display: flex;
+    }
+    &__group{
+        label{
+            font-weight: 600;
+        }
+        input{
+            margin: 10px 0;
+            padding: 10px;
+            font-size: 15px;
+            border: 1px solid #CEBD9C ;
+
+        }
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        margin: 15px 5%;
+    }
+    &__submit{
+        justify-content: flex-end;
+        margin: 5% 10%;
+        input{
+            padding: 10px 15px;
+            background-color: transparent;
+            color: #CEBD9C ;
+            border: 1px solid #CEBD9C ;
+            cursor: pointer;
+            width: 20%;
+            &:hover{
+                background-color: #CEBD9C ;
+                color: #fff
+                ;
+            }
+        }
+    }
+}

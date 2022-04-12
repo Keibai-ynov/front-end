@@ -1,0 +1,20 @@
+.auctions{
+    &__btn{
+        margin: 0 5%;
+        button{
+            background-color: transparent;
+            padding: 10px;
+            border: 1px solid #CEBD9C;
+            color: #CEBD9C;
+            &:hover{
+                color: white;
+                background-color: #CEBD9C;
+            }
+        }
+    }
+    &__title{
+        margin: 50px;
+        font-size: 25px;
+        font-weight: 600;
+    }
+}

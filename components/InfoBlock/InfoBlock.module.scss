@@ -1,0 +1,19 @@
+.infoblock{
+    &__wrapper{
+        margin: 5px 0;
+        min-height: 30%;
+        display: flex;
+        width: 100%;
+    }
+    &__label{
+        margin: 0 5px;
+        font-size: 14px;
+    }
+    &__value{
+        margin: 0 5px;
+        font-size: 14px;
+    }
+    &__labvalue{
+        font-weight: 600;
+    }
+}

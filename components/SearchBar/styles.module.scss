@@ -1,0 +1,25 @@
+.searchbar{
+    &__wrapper{
+        width: 80%;
+        margin: 20px 10%;
+        display: inline-block;
+        vertical-align: baseline;
+    }
+    &__input{
+        padding: 10px 15px;
+        width:90%;
+        font-size: 20px;
+        border: 1px solid 	#800000;
+
+    }
+    &__submit{
+        padding: 10px 15px;
+        font-size: 20px;
+        width: 10%;
+        border: 1px solid 	#800000;
+        border: 1px solid ;
+        color: 	#800000;
+        background-color: white;
+
+    }
+}

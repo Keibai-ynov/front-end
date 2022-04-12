@@ -1,0 +1,25 @@
+.home__wrapper{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    overflow: hidden;
+    .container{
+        &__left{
+            width: 50%;
+            height: 100vh;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+        }
+        &__right{
+            width: 50%;
+            height: 100vh;
+            position: relative;
+            &__img{
+                position:initial;
+            filter: brightness(0.6);
+
+            }
+        }
+    }
+}

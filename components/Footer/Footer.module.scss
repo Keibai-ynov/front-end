@@ -1,0 +1,128 @@
+.footer{
+    &__wrapper{
+        height: 60vh;
+        background-color: black;
+        div{
+            color: #fff;
+        }
+        hr{
+            height: 1px;
+            width: 80%;
+            color: white;
+        }
+    }
+    &__newsletter{
+        height: 25%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0 5%;
+        .newsletter{
+            &__left{
+                width: 35%;
+                h3{
+                    font-size: 24px;
+                    font-weight: 500;
+                    margin: 0 0 10px;
+                }
+                p{
+                    font-size: 12px;
+                }
+            }
+            &__main{
+                width: 40%;
+                form{
+                    margin: 0 5%;
+                    .newsletter{
+                        &__input{
+                            padding: 15px 24px;
+                            width: 60%;
+                        }
+                        &__submit{
+                            width: 25%;
+                            padding: 15px 24px;;
+                            background-color: #FF2020;
+                            color: #fff;
+                            border: 1px solid #FF2020;
+                        }
+                    }
+                }
+            }
+            &__right{
+                width: 30%;
+                display: flex;
+                justify-content: center;
+                .newsletter__social{
+                    width: 100%;
+                    margin: 0% 20%;
+
+                    ul{
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-around;
+                        li{
+                            font-size: 20px;
+                            &:hover{
+                                color: #FF2020;
+                                transform: rotate();
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+    &__main{
+        height: 55%;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        .main{
+            &__logo, &__account, &__auction, &__quick{
+                width: 30%;
+                flex-direction: column;
+            }
+            &__logo{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                h2{
+                    font-size: 30px;
+                    font-weight: 600;
+                }
+            }
+            &__account, &__auction, &__quick{
+                h2{
+                    font-weight: 600;
+                    margin: 5% 0 10%;
+                    // text-align: center;
+                }
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    li{
+                        width: 30%;
+                        margin:2.5%  0;
+                        a{
+                            color: #BBB9B5;
+                            text-decoration: none;
+                            &:hover{
+                                text-decoration: underline;
+                                letter-spacing: .4px;
+                                transition: 0.5s;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+    &__copyright{
+        height: 10%;
+        p{
+            text-align: center;
+        }
+    }
+}

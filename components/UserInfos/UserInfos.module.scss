@@ -1,0 +1,18 @@
+.infos{
+    &__wrapper{
+        margin: 0 5%;
+    }
+    &__row{
+        display: flex;
+    }
+    &__group{
+        label{
+            font-weight: 600;
+        }
+        p{
+            overflow-wrap: break-word;
+        }
+        width: 45%;
+        margin: 15px 0;
+    }
+}

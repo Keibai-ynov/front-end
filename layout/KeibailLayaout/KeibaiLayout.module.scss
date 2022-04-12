@@ -1,0 +1,16 @@
+.keibai__wrapper{
+    // display: flex;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+    height: 100%;
+    min-height: inherit; 
+
+   
+    .main{
+        &__content{
+
+            height: 100%;
+
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.account{
+    &__title{
+        margin: 50px;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    &__btn{
+        display: flex;
+        margin: 10% 20%;
+        justify-content: flex-end;
+        button{
+            padding: 10px 15px;
+            background-color: transparent;
+            color: #CEBD9C;
+            border: 1px solid #CEBD9C;
+            cursor: pointer;
+            &:hover{
+                background-color: #CEBD9C;
+                color: white;
+            }
+        }
+    }
+}

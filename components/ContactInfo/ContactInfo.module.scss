@@ -1,0 +1,28 @@
+.contact{
+    &__wrapper{
+        display: flex;
+    }
+    &__right{
+        width: 50%;
+    }
+    &__left{
+        width: 50%;
+    }
+    &__section{
+        margin: 15px 0;
+        ul{
+            margin: 15px 0;
+            width: 40%;
+            display: flex;
+            justify-content: space-between;
+            li{
+                &:hover{
+                    color: #CEBD9C;
+                }
+            }
+        }
+    }
+    &__social{
+        font-size: 20px;
+    }
+}

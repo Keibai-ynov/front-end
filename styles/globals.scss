@@ -1,0 +1,12 @@
+//Sert à tout ce qui est style global dans toutes l'application
+
+@import "./utils/variables.scss";
+@import "./utils/mixins.scss";
+
+@import "./base/fonts.scss";
+@import './base/reset.scss';
+@import './base/base.scss';
+
+@import './themes/button.scss';
+@import './themes/spacing.scss';
+@import './themes/title.scss';

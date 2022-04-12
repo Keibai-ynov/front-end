@@ -1,0 +1,14 @@
+.title{
+    &__container{
+        position: absolute;
+        z-index: 100;
+        top: 40%;
+        color: white;
+        text-align: center;
+        width: 100%;
+        filter: contrast(0.6);
+    }
+    &__main{
+        font-size: 45px;
+    }
+}
